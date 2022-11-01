@@ -1,8 +1,6 @@
 # Terminology
 
-After much deliberation; I decided to root the terminology from the taxonomy of astronomy.
-
-Away with documents, groups, and pages! Definition resolution will be much more clear with reduced definition overloading...
+Away with documents, groups, and pages! Terminology is rooted from the taxonomy of astronomy. This should make naming easier...
 
 ## Terms
 
@@ -14,7 +12,10 @@ Away with documents, groups, and pages! Definition resolution will be much more 
 - _galaxy_
   - _star_: a document with information
   - _nebula_: Rules for stars
-		- _star_
+    - _star_
+
+- _star cluster_ or _star system_
+  - evolution of a star. multiple pages associated with a "note"
 
 - _star_
   - _molecules_: composer of atoms
@@ -26,9 +27,4 @@ Away with documents, groups, and pages! Definition resolution will be much more 
 
 ## Other
 
-- No solar systems, planets, satellites right now
-
-One choice is whether to choose 'planet' or 'star' for a 'document' or 'note':
-
-- Planet is good because it's at the right scale
-- Star is good because there are more ways to organize stars
+- No solar systems, planets, satellites right now. The "distance" between those things aren't semantically consistent.

@@ -10,7 +10,6 @@ Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/kaxon/server.json"
 
 ```json
 {
-  "port": 3000,
   "documentsDir": "~/Documents/Kaxon"
 }
 ```
