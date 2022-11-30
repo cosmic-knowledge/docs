@@ -1,3 +1,3 @@
 # docs
 
-See the [organization](https://github.com/cosmic-knowledge) for details
+See the [organization](https://github.com/quazipanacea) for details
