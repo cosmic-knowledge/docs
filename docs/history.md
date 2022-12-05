@@ -2,7 +2,7 @@
 
 ## Naming
 
-Previously, this project was called Kaxon, then Knowledge Supercluster, then Kosmic
+Previously, this project was called quazipanacea, then Knowledge Supercluster, Kosmic, now Quazipanacea
 
 ## Note Structure
 

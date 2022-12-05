@@ -1,16 +1,16 @@
 # File System
 
-Kaxon stores everything directly on the file system.
+Quazipanacea stores everything directly on the file system.
 
-Currently, there are two location Kaxon reads and writes from:
+Currently, there are two location Quazipanacea reads and writes from:
 
 ## config
 
-Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/kaxon/server.json"
+Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quazipanacea/server.json"
 
 ```json
 {
-  "documentsDir": "~/Documents/Kaxon"
+  "documentsDir": "~/Documents/Quazipanacea"
 }
 ```
 
