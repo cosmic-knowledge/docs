@@ -14,14 +14,21 @@ Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quazipanacea/server.json"
 }
 ```
 
-## documents
+## data
 
-Documents located at `config.documentsDir`. It has the following subdirectories:
+The directory contains the files:
 
 ```txt
-- `single`
-- `coupled`
+pods.json
+pods/
+  b8/
+    e1a398-6c62-4159-a8c3-2fa1038f8dce/
+    ...
+  d1
+    c14642-7bad-4bb9-bef0-64cf4a32a982/
+    def81a-3cd0-420b-9eac-dff07aa37d7c/
+    ...
+  ...
 ```
 
-- This is the _gold_ level of hierarchy. Silver and bronze have other subcategories
-- Of these types, there are also different levels (primary source and secondary/tertiary source)
+Each of those subdirectory contain a pod's data.
