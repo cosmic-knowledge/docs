@@ -1,51 +1,41 @@
 # Terminology
 
-For each of the following, there are different types. To see all implemented types,
+## Concepts
 
-## Resources
-
-We have the following resource _kinds_:
+A _concept_ in quazipanacea matches its colloquial definition. Each concept has different _kinds_, and plugins can be made to create a new concept.
 
 ### pod
 
-A _pod_ is the smallest unit that holds some_data. There are many types of pods. For example, a `pdf` pod contains the abstractions to work with PDF files (reading, writing, opening in editor, printing, etc.). They aren't limited to wrapping a particular file; a "LaTeX" pod, for example can have multiple files ".tex", ".pdf", ".sty", including any associated images or media files.
+A _pod_ is the smallest unit that holds data. This can be mentally represented as a file (on the file system) with extra functionality or parts abstracted away.
+
+For example, a `pdf` pod contains the abstractions to work with PDF files: reading, writing, opening in an editor, and so on.
+
+Pods aren't limited to wrapping a single file. For example, a `latex` pod, can include its associated `.tex`, `.pdf`, `.sty` files and other assets.
 
 ### overview
 
-The _overview_ exists to create a view around _pods_ and _collections_. These exist so different representations of pods may exist as a first-class citizen. People are most used to hierarchal views, which exist in VSCode, Evernote, and plenty of other places, but other ones include "graph", "timeline", "pie", and so on.
+The _overview_ exists to create a view around _pods_ and _collections_. You're likely most used to hierarchal overviews, such as the file explorer within VSCode.
 
-At a minimum, an overview must have the following functionality:
-
-- show some pods
-- create a pod at any particular place
-- open any particular pod
+This concept exists as a first-class citizen so other representations such as "graph", "timeline", etc. have some level of interoperability, so the user can switch seamlessly between them.
 
 ### collection
 
-_Collections_ are simply of pods that are grouped together. Typically, but not necessarily, it is associated with a set of rules. Usually, the type of a collection is matched with its overview type.
+_Collections_ are simply of pods that are grouped together. Usually, they share _rules_.
+
+Tags are generally preferred to draw connections among pods, but discrete categories still need to be represented in some fashion.
 
 ### rule
 
-A _rule_ is, well, a rule for a pod or a collection of pods. Rules can include pod constraints, schema constraints, tagging strategy, and more.
+_Rules_ are constraints or code that enforces behavior. For example, one rule may enforce that pod names match a particular regular expression within a collection.
 
-## Relationships
+## Plugins
 
-### handler
+Plugins are a core part of quazipanacea:
 
-Each resource has a handler. That handler corresponds to the type of that resource.
+### Plugin Pack
 
-## Reusability
+These are collections of plugins. Currently, plugin packs correspond to an individual. There is also a `Core/` plugin pack for all.
 
 ### Plugins
 
-Plugins are a core part of Quazipanacea. They extend functionality for each resource.
-
-A plugin might have code for multiple components
-
-### Component
-
-Code for a particular piece of Quazipanacea.
-
-### Packs
-
-A collection of plugins
+Plugins change functionality for a specific interface. Often, plugins for different interfaces of quazipanacea need to be written to fully implement the desired behavior.
