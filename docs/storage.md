@@ -6,7 +6,7 @@ Currently, there are two location Quazipanacea reads and writes from:
 
 ## config
 
-Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quazipanacea/server.json"
+Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quazipanacea/server.json"`
 
 ```json
 {

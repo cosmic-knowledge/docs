@@ -2,7 +2,7 @@
 
 ## Concepts
 
-A _concept_ in quazipanacea matches its colloquial definition. Each concept has different _kinds_, and plugins can be made to create a new concept.
+A _concept_ in quazipanacea matches its colloquial definition. There are several concepts:
 
 ### pod
 
@@ -38,4 +38,6 @@ These are collections of plugins. Currently, plugin packs correspond to an indiv
 
 ### Plugins
 
-Plugins change functionality for a specific interface. Often, plugins for different interfaces of quazipanacea need to be written to fully implement the desired behavior.
+Plugins add functionality for a specific interface. Each interface corresponds to a _concept_, which is its _kind_.
+
+Often, plugins for different interfaces of quazipanacea need to be written to fully implement the desired behavior.
