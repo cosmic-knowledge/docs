@@ -1,3 +1,3 @@
 # docs
 
-See the [organization](https://github.com/quazipanacea) for details.
+The most developed pages are [Why](./overview/why.md) and [Terminology](./overview/terminology.md).
