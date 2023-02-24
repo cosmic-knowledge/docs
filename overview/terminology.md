@@ -1,43 +1,46 @@
 # Terminology
 
-## Concepts
+## pod
 
-A _concept_ in quazipanacea matches its colloquial definition. There are several concepts:
+A _pod_ is a unit that holds data and contains abstractions for that data. The data typically resides on the file system.
 
-### pod
+There are two types of pods:
 
-A _pod_ is the smallest unit that holds data. This can be mentally represented as a file (on the file system) with extra functionality or parts abstracted away.
+- file
+- directory
 
-For example, a `pdf` pod contains the abstractions to work with PDF files: reading, writing, opening in an editor, and so on.
+For example, a `pdf` _file pod_ contains a `.pdf` file, and has functionality for reading, writing, and opening the pdf file.
 
-Pods aren't limited to wrapping a single file. For example, a `latex` pod, can include its associated `.tex`, `.pdf`, `.sty` files and other assets.
+Another example, a `latex` _directory pod_, has not only a `.tex` file, but also its associated `.pdf`, `.sty`, `.png`, and other files.
 
-### overview
+## overview
 
-The _overview_ exists to create a view around _pods_ and _collections_. You're likely most used to hierarchal overviews, such as the file explorer within VSCode.
+An _overview_ creates a view around data. Usually, each node of an overview is a _pod_ or _collection_, and it shows the _collections_ between them. You're likely most used to hierarchal overviews, such as the file explorer within VSCode.
 
 This concept exists as a first-class citizen so other representations such as "graph", "timeline", etc. have some level of interoperability, so the user can switch seamlessly between them.
 
-### collection
+## collection
 
 _Collections_ are simply of pods that are grouped together. Usually, they share _rules_.
 
 Tags are generally preferred to draw connections among pods, but discrete categories still need to be represented in some fashion.
 
-### rule
+## cover
+
+A _cover_ is a group of pods, usually constrained against a schema. For example, an "Algebra Cover" may represent the topic of algebra. It may include links to algebra homework problems, algebra lecture notes, algebra lecture videos, and algebra cheat sheets, and other algebra-related "note groups". These different categories each have a set of associated pods.
+
+Covers _complement_ collections. A collection may have multiple colors, that show the data in a different way. Conceptually similar are those productivity apps that allow seamless switching between Kanban Board, Calendar, and Todo List views.
+
+In a way, _covers_ are like _overviews_, but more structured and local. This distinction helps keep covers simple, since they only cover pods, often in a single group (not multiple groups or covers themselves).
+
+## rule
 
 _Rules_ are constraints or code that enforces behavior. For example, one rule may enforce that pod names match a particular regular expression within a collection.
 
-## Plugins
+They are a core primitive that other pods and covers may use.
 
-Plugins are a core part of quazipanacea:
+## plugin
 
-### Plugin Pack
+Quazipanacea has a plugin infrastructure.
 
-These are collections of plugins. Currently, plugin packs correspond to an individual. There is also a `Core/` plugin pack for all.
-
-### Plugins
-
-Plugins add functionality for a specific interface. Each interface corresponds to a _concept_, which is its _kind_.
-
-Often, plugins for different interfaces of quazipanacea need to be written to fully implement the desired behavior.
+Currently, there exists _Plugin Packs_ at the highest level, which itself contains _plugins_ for each part of the app, separated by pods, overviews, collections, and the like.

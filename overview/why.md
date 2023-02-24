@@ -19,7 +19,7 @@ It's wishlist of features includes:
   - Arbitrarily extensible
 - A collaboration system:
   - I'm not sure; definitely something [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)-related
-- Novel systems:
+- Novel systems
   - Reproducible References (like [Reproducible Builds](https://reproducible-builds.org))
   - Proper handling of data source types (bronze, silver, gold)
   - A global schema and constraint system
@@ -29,4 +29,4 @@ What I'm not trying to do:
 - Scale
   - Each user must spin up their own instance
 
-I'll detail the parts deeper in the future.
+I'll detail the parts later.
