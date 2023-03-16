@@ -2,7 +2,7 @@
 
 ## pod
 
-A _pod_ is a unit that holds data and contains abstractions for that data. The data typically resides on the file system.
+A _pod_ is a unit that holds file(s) and operates on those files.
 
 There are two types of pods:
 
@@ -13,17 +13,17 @@ For example, a `pdf` _file pod_ contains a `.pdf` file, and has functionality fo
 
 Another example, a `latex` _directory pod_, has not only a `.tex` file, but also its associated `.pdf`, `.sty`, `.png`, and other files.
 
+## group
+
+_Groups_ are simply of pods that are grouped together. Usually, they share _rules_.
+
+While it's usually better to form relationships through tags and connections for a larger graph, discrete categories are required to implement some features.
+
 ## overview
 
 An _overview_ creates a view around data. Usually, each node of an overview is a _pod_ or _collection_, and it shows the _collections_ between them. You're likely most used to hierarchal overviews, such as the file explorer within VSCode.
 
 This concept exists as a first-class citizen so other representations such as "graph", "timeline", etc. have some level of interoperability, so the user can switch seamlessly between them.
-
-## collection
-
-_Collections_ are simply of pods that are grouped together. Usually, they share _rules_.
-
-Tags are generally preferred to draw connections among pods, but discrete categories still need to be represented in some fashion.
 
 ## cover
 

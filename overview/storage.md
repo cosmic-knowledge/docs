@@ -19,8 +19,8 @@ Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quazipanacea/server.json"`
 The directory contains the files:
 
 ```txt
-pods.json
-pods/
+covers.json
+covers
   b8/
     e1a398-6c62-4159-a8c3-2fa1038f8dce/
     ...
@@ -28,6 +28,12 @@ pods/
     c14642-7bad-4bb9-bef0-64cf4a32a982/
     def81a-3cd0-420b-9eac-dff07aa37d7c/
     ...
+  ...
+groups.json
+groups/
+  ...
+pods.json
+pods/
   ...
 ```
 
