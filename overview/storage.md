@@ -1,16 +1,16 @@
 # File System
 
-Quazipanacea stores everything directly on the file system.
+Quasipanacea stores everything directly on the file system.
 
-Currently, there are two location Quazipanacea reads and writes from:
+Currently, there are two location Quasipanacea reads and writes from:
 
 ## config
 
-Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quazipanacea/server.json"`
+Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quasipanacea/server.json"`
 
 ```json
 {
-  "documentsDir": "~/Documents/Quazipanacea"
+  "documentsDir": "~/Documents/Quasipanacea"
 }
 ```
 

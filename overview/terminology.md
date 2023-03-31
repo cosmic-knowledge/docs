@@ -67,6 +67,6 @@ They are a core primitive that other pods and covers may use.
 
 ## plugin
 
-Quazipanacea has a plugin-based infrastructure.
+Quasipanacea has a plugin-based infrastructure.
 
 Currently, there exists _Plugin Packs_ at the highest level, which itself contains _plugins_ for each part of the app, separated by pods, overviews, collections, and the like.
