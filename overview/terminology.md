@@ -26,7 +26,8 @@ The third dimension of a pod's type:
 
 - node
 - edge
-- virtual/structural (todo)
+- structural (todo)
+- virtual (the name and its connections inferred, but pod does not exist)
 
 ## group
 
@@ -35,6 +36,14 @@ _Groups_ are simply of pods that are grouped together. Usually, they share _rule
 While it's usually better to form relationships through tags and connections for a larger graph, discrete categories are required to implement some features.
 
 This will be removed in favor of a more "virtual pod"-like approach. To group together, say, 10 pods, use a virtual pod map to each pod. These connections could be a "virtual connection", or a "structural connection" (separate from "conceptual" connections).
+
+## document
+
+A _document_ is ...
+
+## link
+
+A _link_ is ...
 
 ## overview
 
