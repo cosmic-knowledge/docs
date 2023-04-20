@@ -2,15 +2,15 @@
 
 ## Definitions
 
-## orbs
+### orb
 
 Nodes of a knowledge graph.
 
-## links
+### link
 
 Edges of a knowledge graph.
 
-## anchor
+### anchor
 
 A special orb. It includes:
 
@@ -19,7 +19,7 @@ A special orb. It includes:
 - covers for a set of faithful semantic representations of the schema
 - metadata to store properties, tags, authorship, last modified dates, and the like
 
-## cover
+### cover
 
 It is responsible for representing knowledge, given a particular schema.
 
@@ -29,9 +29,9 @@ For example, an "Algebra Cover" may represent the topic of algebra. It may inclu
 
 Another example includes productivity apps that have a kanban, calendar, and todo view.
 
-## pod
+### pod
 
-Responsible for managing data "Word Document", "Notion Page", or "Blender File".
+Responsible for managing data. Like a "Word Document", "Notion Page", or "Blender File".
 
 A _pod_ is to documents as a class is to bytes.
 
@@ -53,19 +53,19 @@ The second dimension of a pod's type:
 
 So far, all of these are first-party plugins.
 
-## overview
+### overview
 
 An _overview_ creates a view around data. Usually, each node of an overview is a _pod_ or _anchor, and it shows the_collections_ between them. You're likely most used to hierarchal overviews, such as the file explorer within VSCode.
 
 This concept exists as a first-class citizen so other representations such as "graph", "timeline", etc. have some level of interoperability, so the user can switch seamlessly between them.
 
-## rule
+### rule
 
 _Rules_ are constraints or code that enforces behavior. For example, one rule may enforce that pod names match a particular regular expression within a collection.
 
 They are a core primitive that other pods and covers may use.
 
-## plugin
+### plugin
 
 Quasipanacea is highly extensible with plugins.
 
@@ -77,3 +77,7 @@ There are different types of plugins:
 - pack
 - pod
 - theme
+
+## Definitions 2
+
+- Analogue
