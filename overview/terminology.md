@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-  subgraph "Overview (graph perspective)"
+  subgraph "Overviews (graph perspective)"
     direction BT
     overview1[Overviews]
 
@@ -11,19 +11,15 @@ flowchart TD
     orb1 <-.-> link1
   end
 
-  subgraph "Overview (knowledge perspective)"
+  subgraph "Overviews (knowledge perspective)"
     direction BT
     overview2[Overviews]
 
     anchor2[Anchors] --> overview2
     cover2[Covers] --> anchor2
-    orb2[Orbs] --> anchor2
-    link2[Links] --> anchor2
-    pod2[Pods] --> anchor2
+    schema2[Schema] --> anchor2
+    pod2[Pods] --> schema2
     rule2a[Rules] --> cover2
-    rule2b[Rules] --> orb2
-    rule2c[Rules] --> link2
-    rule2d[Rules] --> pod2
   end
 ```
 
