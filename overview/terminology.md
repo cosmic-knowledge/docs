@@ -15,11 +15,11 @@ flowchart TD
     direction BT
     overview2[Overviews]
 
-    anchor2[Anchors] --> overview2
-    cover2[Covers] --> anchor2
-    schema2[Schema] --> anchor2
-    pod2[Pods] --> schema2
-    rule2a[Rules] --> cover2
+    model2[Models] --> overview2
+    view2[Views] --> model2
+    pod2[Pods] --> model2
+    rule2a[Rules] --> view2
+    rula2b[Rules] --> pod2
   end
 ```
 
@@ -27,7 +27,7 @@ flowchart TD
 
 ### overview
 
-An _overview_ renders a knowledge repository. Most of the graph and relationship construction is delegated to _anchors_.
+An _overview_ renders a knowledge repository. Most of the graph and relationship construction is delegated to _models_.
 
 This concept exists as a first-class citizen so users can experiment with how _they_ display their knowledge.
 
@@ -55,30 +55,30 @@ For example, a `pdf` _file pod_ contains a `.pdf` file, and has functionality fo
 
 For example, a `latex` _directory pod_, has not only a `.tex` file, but also its associated `.pdf`, `.sty`, `.png`, and other files.
 
-### anchor
+### model
 
 Is a node on the knowledge graph.
 
-Anchors play a vital part in organizing data and their relationships. They:
+Models play a vital part in organizing data and their relationships. They:
 
 - are a schema for knowledge to be constrained against
 - have rules as additional constraints for orbs, pods, and the like
-- have covers for a set of faithful semantic representations of the schema
+- have views for a set of faithful semantic representations of the schema
 - store metadata of properties like: tags, authorship, last modified dates, etc.
 
-### cover
+### view
 
-Responsible for representing knowledge of an anchor.
+Responsible for representing knowledge of an model.
 
-For example, an "Algebra Cover" may represent the topic of algebra. It may include links to algebra homework problems, algebra lecture notes, algebra lecture videos, and algebra cheat sheets, and other algebra-related "note groups". These different categories each have a set of associated pods.
+For example, an "Algebra View" may represent the topic of algebra. It may include links to algebra homework problems, algebra lecture notes, algebra lecture videos, and algebra cheat sheets, and other algebra-related "note groups". These different categories each have a set of associated pods.
 
-Another example relates to productivity apps that have a kanban, calendar, and todo view. Each view would correspond to a cover, and the data within those views are _conceptually_ stored in each anchor.
+Another example relates to productivity apps that have a kanban, calendar, and todo view. Each view would correspond to a view, and the data within those views are _conceptually_ stored in each model.
 
 ### rule
 
 _Rules_ are constraints that enforce behavior. For example, one rule may enforce that pod names match a particular regular expression.
 
-They are a core primitive that other pods, covers, and anchors may use.
+They are a core primitive that other pods, views, and models may use.
 
 ### plugin
 
@@ -86,8 +86,8 @@ Quasipanacea is highly extensible.
 
 There are many different types of plugins:
 
-- anchor
-- cover
+- model
+- view
 - overview
 - pack
 - pod

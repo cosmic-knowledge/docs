@@ -19,8 +19,8 @@ Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quasipanacea/server.json"`
 The directory contains the files:
 
 ```txt
-covers.json
-covers
+views.json
+views
   b8/
     e1a398-6c62-4159-a8c3-2fa1038f8dce/
     ...
