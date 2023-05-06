@@ -1,4 +1,4 @@
-# File System
+# Storage
 
 Quasipanacea stores everything directly on the file system.
 
