@@ -23,6 +23,10 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [Argdown](https://argdown.org)
 - [MDX](https://mdxjs.com)
 - [notecalc3](https://github.com/bbodi/notecalc3)
+- [reStructuredText](https://docutils.sourceforge.io/rst.html)
+- [DocBook](https://docbook.org)
+- HTML
+- DITA
 
 ### Code to Diagram
 
@@ -30,6 +34,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [JSXGraph](https://jsxgraph.uni-bayreuth.de/wp)
 - [function-plot](https://mauriciopoppe.github.io/function-plot)
 - [Observable Plot](https://observablehq.com/plot)
+- [sprotty](https://github.com/eclipse-sprotty/sprotty)
 
 ### Draw
 
@@ -37,6 +42,32 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [tldraw](https://www.tldraw.com)
 - [signature_pad](https://github.com/szimek/signature_pad)
 - [jspaint](https://github.com/1j01/jspaint)
+
+## Code IDEs
+
+- [codesandbox](https://codesandbox.io)
+- [sandpack](https://github.com/codesandbox/sandpack)
+- [theia](https://theia-ide.org)
+- [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
+
+### Flow Based Programming
+
+- [Node-RED](https://nodered.org)
+- [rete](https://github.com/retejs/rete)
+- [flume](https://flume.dev)
+- [noflo](https://github.com/noflo/noflo)
+- [Drawflow](https://github.com/jerosoler/Drawflow)
+- [baklavajs](https://github.com/newcat/baklavajs)
+- [litegraph.js](https://github.com/jagenjo/litegraph.js)
+- [reaflow](https://github.com/reaviz/reaflow)
+- [nodify](https://github.com/miroiu/nodify)
+- [nodes.io](https://nodes.io)
+- [Seneral](https://github.com/Seneral/Node_Editor_Framework)
+- [ThreeNodes.js](https://github.com/idflood/ThreeNodes.js)
+
+### Toolbox Framework
+
+- [orange3](https://github.com/biolab/orange3)
 
 ## Exploring Ancillary Solutions
 
@@ -60,17 +91,29 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [polynote](https://github.com/polynote/polynote)
 - [clerk](https://github.com/nextjournal/clerk)
 - [starboard-notebook](https://github.com/gzuidhof/starboard-notebook)
+- [nbdev](https://nbdev.fast.ai)
 - [nteract](https://nteract.io) stack
 
 ### Other
 
+- [awesome-node-based-uis](https://github.com/wbkd/awesome-node-based-uis)
+- [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
+- [WebGLStudio](https://webglstudio.org)
+- [GSN Composer](https://www.gsn-lib.org/docs/getstarted.php)
 - [TopicQuests](topicquests.org)
 - [Open Knowledge Foundation](https://okfn.org)
 - [Datasette](https://datasette.io)
+- [budibase](https://github.com/Budibase/budibase)
+- [openblocks](https://github.com/openblocks-dev/openblocks)
+- [yao](https://github.com/YaoApp/yao)
+- [n8n](https://github.com/n8n-io/n8n)
 - [Progress Nav](https://lab.hakim.se/progress-nav)
 - [perfect-arrows](https://github.com/steveruizok/perfect-arrows)
 - [perfect-freehand](https://github.com/steveruizok/perfect-freehand)
 - [state-designer](https://github.com/steveruizok/state-designer)
+- [glance](https://github.com/rgleichman/glance)
+- [enso](https://github.com/enso-org/enso)
+- [polygonjs](https://github.com/polygonjs/polygonjs)
 
 ## Obsolete Solutions
 
@@ -83,3 +126,4 @@ These were popular in the past, but have been superceded by more modern tools.
 - [Treant.Js](https://github.com/fperucic/treant-js): use D3.js/vis.js/Cytoscape.js
 - [mapjs](https://www.mindmup.com): use markmap
 - [jsmind](https://jsmind.online): use markmap
+- [VivaGraph](https://github.com/anvaka/VivaGraphJS): use vis.js/Cytoscape.js
