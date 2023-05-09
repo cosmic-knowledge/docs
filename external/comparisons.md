@@ -18,6 +18,8 @@ Some software is irrelevant in this comparison. They include:
   - Like [memos][memos], [linked][lostdesign-linked]
 - C++-implemented solutions
   - Like [xournalpp][xournalpp], [QOwnNotes][qownnotes], [nuttyartist/notes][nuttyartist-notes], [Heimer][heimer], [vnote][vnote], [rnote][rnote], [mindforger][mindforger]
+- Plugins for blocks
+  - Like [quartz][quartz]
 - VCS-specific implementation
   - Like [GitJournal][git-journal], [batnoter][batnoter], [gitnote][gitnote], [Fossil][fossil]
 - Others
@@ -51,6 +53,7 @@ Some software is irrelevant in this comparison. They include:
 [vnote]: https://github.com/vnotex/vnote
 [rnote]: https://github.com/flxzt/rnote
 [mindforger]: https://github.com/dvorka/mindforger
+[quartz]: https://github.com/jackyzha0/quartz
 [git-journal]: https://github.com/GitJournal/GitJournal
 [batnoter]: https://github.com/batnoter/batnoter
 [gitnote]: https://github.com/zhaopengme/gitnote

@@ -49,6 +49,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [sandpack](https://github.com/codesandbox/sandpack)
 - [theia](https://theia-ide.org)
 - [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
+- [devcontainers](https://github.com/devcontainers)
 
 ### Flow Based Programming
 
@@ -57,6 +58,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [flume](https://flume.dev)
 - [noflo](https://github.com/noflo/noflo)
 - [Drawflow](https://github.com/jerosoler/Drawflow)
+- [NodeBox](https://www.nodebox.net)
 - [baklavajs](https://github.com/newcat/baklavajs)
 - [litegraph.js](https://github.com/jagenjo/litegraph.js)
 - [reaflow](https://github.com/reaviz/reaflow)
@@ -68,6 +70,11 @@ A plethora of tools currently exist to create and represent data, whether throug
 ### Toolbox Framework
 
 - [orange3](https://github.com/biolab/orange3)
+- [gtoolkit](https://github.com/feenkcom/gtoolkit)
+
+### Toolbox Libraries
+
+- [raylib](https://github.com/raysan5/raylib)
 
 ## Exploring Ancillary Solutions
 
@@ -94,8 +101,25 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [nbdev](https://nbdev.fast.ai)
 - [nteract](https://nteract.io) stack
 
+### Schemas
+
+- [XMDP](https://gmpg.org/xmdp/description)
+
+### Domain-Specific Visualization / Editing Mediums
+
+- [ASTExplorer](https://astexplorer.net)
+
+### Database Inspectors
+
+- [dbbeaver](https://dbeaver.io/download)
+
 ### Other
 
+- [PubPub](https://www.pubpub.org)
+- [Underlay](https://www.underlay.org)
+- [KnowledgeFutures](https://www.knowledgefutures.org)
+- [WikiPathways](https://www.wikipathways.org)
+- [memphis](https://github.com/memphisdev/memphis)
 - [awesome-node-based-uis](https://github.com/wbkd/awesome-node-based-uis)
 - [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
 - [WebGLStudio](https://webglstudio.org)
