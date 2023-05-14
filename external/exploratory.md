@@ -84,6 +84,7 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 
 - [Block Protocol](https://blockprotocol.org)
 - [Solid](https://solidproject.org)
+- [blocksuite](https://github.com/toeverything/blocksuite)
 - Notion blocks?
 
 ### Storage and Synchronization
@@ -115,6 +116,7 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 
 ### Other
 
+- [Kinopio](https://kinopio.club)
 - [PubPub](https://www.pubpub.org)
 - [Underlay](https://www.underlay.org)
 - [KnowledgeFutures](https://www.knowledgefutures.org)
@@ -138,6 +140,10 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [glance](https://github.com/rgleichman/glance)
 - [enso](https://github.com/enso-org/enso)
 - [polygonjs](https://github.com/polygonjs/polygonjs)
+
+## Others
+
+- [miro](https://miro.com)
 
 ## Obsolete Solutions
 

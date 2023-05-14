@@ -23,7 +23,7 @@ Some software is irrelevant in this comparison. They include:
 - VCS-specific implementation
   - Like [GitJournal][git-journal], [batnoter][batnoter], [gitnote][gitnote], [Fossil][fossil]
 - Others
-  - Like [OpenNote][open-note], [Lorien][lorien], [TidGi-Desktop][tidgi-desktop], [Omni-Notes][omni-notes]
+  - Like [OpenNote][open-note], [Lorien][lorien], [TidGi-Desktop][tidgi-desktop], [Omni-Notes][omni-notes], [Dynalist][dynalist]
 
 [docu-wiki]: https://www.dokuwiki.org/dokuwiki
 [media-wiki]: https://www.mediawiki.org/wiki/MediaWiki
@@ -62,6 +62,29 @@ Some software is irrelevant in this comparison. They include:
 [lorien]: https://github.com/mbrlabs/Lorien
 [tidgi-desktop]: https://github.com/tiddly-gittly/TidGi-Desktop
 [omni-notes]: https://github.com/federicoiosue/Omni-Notes
+[dynalist]: https://dynalist.io
+
+Considering
+
+- [AFFiNE][affine]
+- [Heptabase][heptabase]
+- [Tana][tana]
+- [ThunkNotes][thunk]
+- [RemNote][remnote]
+- [Reflect][reflect]
+- [Craft][craft]
+- [Tangent][tangent]
+- [Anytype][anytype]
+
+[affine]: https://github.com/toeverything/AFFiNE
+[heptabase]: https://heptabase.com
+[tana]: https://tana.inc
+[thunk]: https://www.thunknotes.com
+[remnote]: https://www.remnote.com
+[reflect]: https://reflect.app
+[craft]: https://www.craft.do
+[tangent]: https://www.tangentnotes.com
+[anytype]: https://anytype.io
 
 ## Lock-In
 
