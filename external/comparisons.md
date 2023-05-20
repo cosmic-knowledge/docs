@@ -75,6 +75,7 @@ Considering
 - [Craft][craft]
 - [Tangent][tangent]
 - [Anytype][anytype]
+- [Inkdrop][inkdrop]
 
 [affine]: https://github.com/toeverything/AFFiNE
 [heptabase]: https://heptabase.com
@@ -85,6 +86,7 @@ Considering
 [craft]: https://www.craft.do
 [tangent]: https://www.tangentnotes.com
 [anytype]: https://anytype.io
+[inkdrop]: https://www.inkdrop.app
 
 ## Lock-In
 
