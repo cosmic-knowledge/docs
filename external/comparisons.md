@@ -76,6 +76,8 @@ Considering
 - [Tangent][tangent]
 - [Anytype][anytype]
 - [Inkdrop][inkdrop]
+- [Indigrid][indigrid]
+- [Quarto][quarto]
 
 [affine]: https://github.com/toeverything/AFFiNE
 [heptabase]: https://heptabase.com
@@ -87,6 +89,8 @@ Considering
 [tangent]: https://www.tangentnotes.com
 [anytype]: https://anytype.io
 [inkdrop]: https://www.inkdrop.app
+[indigrid]: https://innovationdilation.com
+[quarto]: https://quarto.org
 
 ## Lock-In
 

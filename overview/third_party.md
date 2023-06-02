@@ -1,8 +1,6 @@
 # Third Party
 
-## For core
-
-Libraries and frameworks integral to the project as a whole.
+## In core
 
 ### Isomorphic
 
@@ -23,9 +21,7 @@ Libraries and frameworks integral to the project as a whole.
 - [Deno](https://deno.com/runtime)
 - [Oak](https://oakserver.github.io/oak)
 
-## For plugins
-
-Libraries used for important plugins.
+## In plugins
 
 - [remark](https://remark.js.org)
 - [Markmap](https://github.com/markmap/markmap)

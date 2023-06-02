@@ -1,12 +1,12 @@
 # Exploring
 
-## Exploring Representations
+## Representations
 
 A plethora of tools currently exist to create and represent data, whether through text, GUIs, or other means. Leverage and integrate the most valuable of these tools via plugins.
 
-### Text to Diagram / Interactivity
+### Text to Diagram / Interactivity / Document Tools
 
-- bpmm-io/{bpmm-js,cmmn-js,dmm-js}
+- [bpmm-io](https://bpmn.io) (bpmm-js, cmmn-js, dmm-js, form-js)
 - [nomnoml](https://nomnoml.com)
 - [PlantUML](https://plantuml.com)
 - [C4](https://c4model.com)
@@ -25,31 +25,24 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [notecalc3](https://github.com/bbodi/notecalc3)
 - [reStructuredText](https://docutils.sourceforge.io/rst.html)
 - [DocBook](https://docbook.org)
-- HTML
-- DITA
+- [DITA](https://www.oxygenxml.com/dita/1.3/specs)
+- [HTML](https://html.spec.whatwg.org/multipage)
 
-### Code to Diagram
+### Code to Diagram Tools
 
 - [D3](https://d3js.org)
 - [JSXGraph](https://jsxgraph.uni-bayreuth.de/wp)
 - [function-plot](https://mauriciopoppe.github.io/function-plot)
 - [Observable Plot](https://observablehq.com/plot)
 - [sprotty](https://github.com/eclipse-sprotty/sprotty)
+- [miro](https://miro.com)
 
-### Draw
+### Drawing Tools
 
 - [excalidraw](https://excalidraw.com)
 - [tldraw](https://www.tldraw.com)
 - [signature_pad](https://github.com/szimek/signature_pad)
 - [jspaint](https://github.com/1j01/jspaint)
-
-## Code IDEs
-
-- [codesandbox](https://codesandbox.io)
-- [sandpack](https://github.com/codesandbox/sandpack)
-- [theia](https://theia-ide.org)
-- [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
-- [devcontainers](https://github.com/devcontainers)
 
 ### Flow Based Programming
 
@@ -67,23 +60,47 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [Seneral](https://github.com/Seneral/Node_Editor_Framework)
 - [ThreeNodes.js](https://github.com/idflood/ThreeNodes.js)
 
-### Toolbox Framework
+## Code IDEs
+
+- [codesandbox](https://codesandbox.io)
+- [sandpack](https://github.com/codesandbox/sandpack)
+- [theia](https://theia-ide.org)
+- [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
+- [devcontainers](https://github.com/devcontainers)
+
+## Annotation Tools
+
+- [OpenPecha](https://github.com/OpenPecha)
+
+### Toolbox Frameworks
 
 - [orange3](https://github.com/biolab/orange3)
 - [gtoolkit](https://github.com/feenkcom/gtoolkit)
 
-### Toolbox Libraries
+### Toolbox Libraries / Creative Coding Frameworks
 
 - [raylib](https://github.com/raysan5/raylib)
+- [nannou](https://github.com/nannou-org/nannou)
 
-## Exploring Ancillary Solutions
+## Ancillary Solutions
 
 Popular implementations of novel protocols and algorithms make it increasingly possible to implement very complex functionality that would have otherwise been deemed impractical to implement. Compare how they can be utilized by quasipanacea.
+
+## Format/Protocol Interoperability
+
+- [Multiformats](https://multiformats.io)
+- [IPLD](https://ipld.io)
+- [PortableText](https://github.com/portabletext/portabletext)
+
+## Embedding
+
+- [XMP](https://www.adobe.com/devnet/xmp.html)
 
 ### Block-Based
 
 - [Block Protocol](https://blockprotocol.org)
 - [Solid](https://solidproject.org)
+- [Adaptive Cards](https://adaptivecards.io)
 - [blocksuite](https://github.com/toeverything/blocksuite)
 - Notion blocks?
 
@@ -99,8 +116,14 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [polynote](https://github.com/polynote/polynote)
 - [clerk](https://github.com/nextjournal/clerk)
 - [starboard-notebook](https://github.com/gzuidhof/starboard-notebook)
+- [percival](https://github.com/ekzhang/percival)
 - [nbdev](https://nbdev.fast.ai)
 - [nteract](https://nteract.io) stack
+
+### Querying
+
+- [GROQ](https://github.com/sanity-io/GROQ)
+- [GraphQL](https://graphql.org)
 
 ### Schemas
 
@@ -114,6 +137,20 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 
 - [dbbeaver](https://dbeaver.io/download)
 
+## Data exploring and publishing
+
+- [Datasette](https://datasette.io)
+
+## Workflow automation
+
+- [n8n](https://github.com/n8n-io/n8n)
+
+
+### Internal Tool
+
+- [budibase](https://github.com/Budibase/budibase)
+- [openblocks](https://github.com/openblocks-dev/openblocks)
+
 ### Other
 
 - [Kinopio](https://kinopio.club)
@@ -126,13 +163,9 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
 - [WebGLStudio](https://webglstudio.org)
 - [GSN Composer](https://www.gsn-lib.org/docs/getstarted.php)
-- [TopicQuests](topicquests.org)
+- [TopicQuests](https://topicquests.org)
 - [Open Knowledge Foundation](https://okfn.org)
-- [Datasette](https://datasette.io)
-- [budibase](https://github.com/Budibase/budibase)
-- [openblocks](https://github.com/openblocks-dev/openblocks)
 - [yao](https://github.com/YaoApp/yao)
-- [n8n](https://github.com/n8n-io/n8n)
 - [Progress Nav](https://lab.hakim.se/progress-nav)
 - [perfect-arrows](https://github.com/steveruizok/perfect-arrows)
 - [perfect-freehand](https://github.com/steveruizok/perfect-freehand)
@@ -140,10 +173,6 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [glance](https://github.com/rgleichman/glance)
 - [enso](https://github.com/enso-org/enso)
 - [polygonjs](https://github.com/polygonjs/polygonjs)
-
-## Others
-
-- [miro](https://miro.com)
 
 ## Obsolete Solutions
 
