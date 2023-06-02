@@ -36,13 +36,15 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [Observable Plot](https://observablehq.com/plot)
 - [sprotty](https://github.com/eclipse-sprotty/sprotty)
 - [miro](https://miro.com)
+- [state-designer](https://github.com/steveruizok/state-designer)
 
-### Drawing Tools
+### Drawing Tools / Thinking Canvas / Mind Mapping / FreeForm Thinking
 
 - [excalidraw](https://excalidraw.com)
 - [tldraw](https://www.tldraw.com)
 - [signature_pad](https://github.com/szimek/signature_pad)
 - [jspaint](https://github.com/1j01/jspaint)
+- [Kinopio](https://kinopio.club)
 
 ### Flow Based Programming
 
@@ -59,8 +61,12 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [nodes.io](https://nodes.io)
 - [Seneral](https://github.com/Seneral/Node_Editor_Framework)
 - [ThreeNodes.js](https://github.com/idflood/ThreeNodes.js)
+- [GSN Composer](https://www.gsn-lib.org/docs/getstarted.php)
+- [awesome-node-based-uis](https://github.com/wbkd/awesome-node-based-uis)
+- [enso](https://github.com/enso-org/enso)
+- [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
 
-## Code IDEs
+### Code IDEs
 
 - [codesandbox](https://codesandbox.io)
 - [sandpack](https://github.com/codesandbox/sandpack)
@@ -68,32 +74,19 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
 - [devcontainers](https://github.com/devcontainers)
 
-## Annotation Tools
-
-- [OpenPecha](https://github.com/OpenPecha)
-
-### Toolbox Frameworks
+### Toolbox / Creative Coding Libraries / Frameworks
 
 - [orange3](https://github.com/biolab/orange3)
 - [gtoolkit](https://github.com/feenkcom/gtoolkit)
-
-### Toolbox Libraries / Creative Coding Frameworks
-
 - [raylib](https://github.com/raysan5/raylib)
 - [nannou](https://github.com/nannou-org/nannou)
 
-## Ancillary Solutions
-
-Popular implementations of novel protocols and algorithms make it increasingly possible to implement very complex functionality that would have otherwise been deemed impractical to implement. Compare how they can be utilized by quasipanacea.
-
-## Format/Protocol Interoperability
+### Format/Protocol Interoperability
 
 - [Multiformats](https://multiformats.io)
 - [IPLD](https://ipld.io)
 - [PortableText](https://github.com/portabletext/portabletext)
-
-## Embedding
-
+- [XMDP](https://gmpg.org/xmdp/description)
 - [XMP](https://www.adobe.com/devnet/xmp.html)
 
 ### Block-Based
@@ -103,11 +96,6 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [Adaptive Cards](https://adaptivecards.io)
 - [blocksuite](https://github.com/toeverything/blocksuite)
 - Notion blocks?
-
-### Storage and Synchronization
-
-- [IPFS](https://github.com/ipfs/ipfs)
-- [Earthstar](https://earthstar-project.org)
 
 ### Notebooking Solutions
 
@@ -125,54 +113,42 @@ Popular implementations of novel protocols and algorithms make it increasingly p
 - [GROQ](https://github.com/sanity-io/GROQ)
 - [GraphQL](https://graphql.org)
 
-### Schemas
+### Data exploring and publishing / Knowledge Infrastructure
 
-- [XMDP](https://gmpg.org/xmdp/description)
+- [Datasette](https://datasette.io)
+- [PubPub](https://www.pubpub.org)
+- [KnowledgeFutures](https://www.knowledgefutures.org)
+- [Open Knowledge Foundation](https://okfn.org)
+- [TopicQuests](https://topicquests.org)
+- [Underlay](https://www.underlay.org)
 
-### Domain-Specific Visualization / Editing Mediums
+### Storage and Synchronization
+
+- [IPFS](https://github.com/ipfs/ipfs)
+- [Earthstar](https://earthstar-project.org)
+- [perkeep](https://github.com/perkeep/perkeep)
+
+### Others
 
 - [ASTExplorer](https://astexplorer.net)
 
-### Database Inspectors
+#### Ideas
 
-- [dbbeaver](https://dbeaver.io/download)
-
-## Data exploring and publishing
-
-- [Datasette](https://datasette.io)
-
-## Workflow automation
-
-- [n8n](https://github.com/n8n-io/n8n)
-
-
-### Internal Tool
-
-- [budibase](https://github.com/Budibase/budibase)
-- [openblocks](https://github.com/openblocks-dev/openblocks)
-
-### Other
-
-- [Kinopio](https://kinopio.club)
-- [PubPub](https://www.pubpub.org)
-- [Underlay](https://www.underlay.org)
-- [KnowledgeFutures](https://www.knowledgefutures.org)
-- [WikiPathways](https://www.wikipathways.org)
-- [memphis](https://github.com/memphisdev/memphis)
-- [awesome-node-based-uis](https://github.com/wbkd/awesome-node-based-uis)
-- [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
-- [WebGLStudio](https://webglstudio.org)
-- [GSN Composer](https://www.gsn-lib.org/docs/getstarted.php)
-- [TopicQuests](https://topicquests.org)
-- [Open Knowledge Foundation](https://okfn.org)
-- [yao](https://github.com/YaoApp/yao)
 - [Progress Nav](https://lab.hakim.se/progress-nav)
 - [perfect-arrows](https://github.com/steveruizok/perfect-arrows)
 - [perfect-freehand](https://github.com/steveruizok/perfect-freehand)
-- [state-designer](https://github.com/steveruizok/state-designer)
-- [glance](https://github.com/rgleichman/glance)
-- [enso](https://github.com/enso-org/enso)
-- [polygonjs](https://github.com/polygonjs/polygonjs)
+
+#### Annotation Tools
+
+- [OpenPecha](https://github.com/OpenPecha)
+
+#### Domain-Specific
+
+- [WikiPathways](https://www.wikipathways.org)
+
+#### Event Processing
+
+- [memphis](https://github.com/memphisdev/memphis)
 
 ## Obsolete Solutions
 
