@@ -29,23 +29,9 @@ flowchart TD
 
 An _overview_ renders a knowledge repository. Most of the graph and relationship construction is delegated to _models_.
 
-This concept exists as a first-class citizen so users can experiment with how _they_ display their knowledge.
-
-### orb
-
-Is a node on the knowledge graph.
-
-- May have an associated pod (TODO)
-
-### link
-
-Is an edge on the knowledge graph.
-
-- May have an associated pod
+This concept exists as a first-class citizen so users can experiment with how to depict knowledge.
 
 ### pod
-
-Responsible for managing data. Like a "Word Document", "Notion Page", or "Blender File".
 
 A _pod_ is to documents as a class is to bytes.
 
@@ -57,7 +43,7 @@ For example, a `latex` _directory pod_, has not only a `.tex` file, but also its
 
 ### model
 
-Is a node on the knowledge graph.
+A _model_ manages a group of pods.
 
 Models play a vital part in organizing data and their relationships. They:
 
@@ -68,7 +54,7 @@ Models play a vital part in organizing data and their relationships. They:
 
 ### view
 
-Responsible for representing knowledge of an model.
+A depiction of representation of a model.
 
 For example, an "Algebra View" may represent the topic of algebra. It may include links to algebra homework problems, algebra lecture notes, algebra lecture videos, and algebra cheat sheets, and other algebra-related "note groups". These different categories each have a set of associated pods.
 
@@ -79,20 +65,3 @@ Another example relates to productivity apps that have a kanban, calendar, and t
 _Rules_ are constraints that enforce behavior. For example, one rule may enforce that pod names match a particular regular expression.
 
 They are a core primitive that other pods, views, and models may use.
-
-### plugin
-
-Quasipanacea is highly extensible.
-
-There are many different types of plugins:
-
-- model
-- view
-- overview
-- pack
-- pod
-- theme
-
-## Definitions 2
-
-- Analogue

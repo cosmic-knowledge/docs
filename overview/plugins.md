@@ -1,21 +1,32 @@
 # Plugins
 
-Currently, most work is confined to plugins. The most developed plugins are:
+Quasipanacea is highly extensible. There are different families:
+
+- model
+- view
+- overview
+- pack
+- pod
+- theme
+
+The most developed plugins are:
 
 - `quasipanacea-overview-graph`
 - `quasipanacea-pod-latex`
 - `quasipanacea-pod-markdown`
 
-## Popups
+## API
+
+### Popups
 
 In your component:
 
 ```ts
-import { showPopup } from '@quasipanacea/common/client/popup.js'
-import { ViewCreatePopup } from '@quasipanacea/plugin-components/popups/index.js'
+import { popup } from '@quasipanacea/common/client/index.js'
+import { ViewCreatePopup } from '@quasipanacea/components/index.js'
 
-await showPopup('view-create', ViewCreatePopup, {
-  modelUuid: props.uuid,
+await popup.show('view-create', ViewCreatePopup, {
+	modelUuid: props.uuid,
 })
 ```
 
@@ -24,7 +35,7 @@ For now, you must also add the schema to `popup.ts`.
 If you are adding a popup, be sure to add at least the following to close the popup:
 
 ```js
-import { hidePopupNoData } from '@quasipanacea/common/client/popup'
+import { popup } from '@quasipanacea/common/client/index.js'
 
-hidePopupNoData('null')
+popup.hideNoData('null')
 ```

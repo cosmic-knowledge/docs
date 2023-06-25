@@ -22,6 +22,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [Mathlingua](https://mathlingua.org)
 - [Argdown](https://argdown.org)
 - [MDX](https://mdxjs.com)
+- [Markdoc](https://markdoc.dev)
 - [notecalc3](https://github.com/bbodi/notecalc3)
 - [reStructuredText](https://docutils.sourceforge.io/rst.html)
 - [DocBook](https://docbook.org)
@@ -74,6 +75,14 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
 - [devcontainers](https://github.com/devcontainers)
 
+## Design
+
+- [Figma](https://github.com/penpot/penpot)
+- [Wireflow](https://wireflow.co)
+- [Plasmic](https://www.plasmic.app)
+- [Akira](https://github.com/akiraux/Akira)
+- [QuantUX](https://quant-ux.com)
+
 ### Toolbox / Creative Coding Libraries / Frameworks
 
 - [orange3](https://github.com/biolab/orange3)
@@ -89,13 +98,37 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [XMDP](https://gmpg.org/xmdp/description)
 - [XMP](https://www.adobe.com/devnet/xmp.html)
 
-### Block-Based
+### Editing Solutions
 
+#### Block-Based
+
+- [editor.js](https://editorjs.io)
+- [BlockSuite](https://github.com/toeverything/blocksuite)
+- [BlockNote](https://www.blocknotejs.org)
+- [Plate](https://plate.udecode.io)
+- [slate](https://github.com/ianstormtaylor/slate)
+- [bangle.dev](https://github.com/bangle-io/bangle.dev)
+
+#### Markdown-based
+
+- [Milkdown](https://milkdown.dev)
+- [tui.editor](https://ui.toast.com/tui-editor)
+
+### Text Editors
+
+- [Lexical](https://github.com/facebook/lexical)
+- [Tiptap](https://tiptap.dev)
+- [ProseMirror](https://prosemirror.net)
+- [Quill](https://github.com/quilljs/quill)
+- [Trix](https://trix-editor.org)
+
+## Block-Based Standards
+
+- [Mobiledoc](https://github.com/bustle/mobiledoc-kit)
 - [Block Protocol](https://blockprotocol.org)
+- [hash.ai](https://hash.ai)
 - [Solid](https://solidproject.org)
 - [Adaptive Cards](https://adaptivecards.io)
-- [blocksuite](https://github.com/toeverything/blocksuite)
-- Notion blocks?
 
 ### Notebooking Solutions
 
@@ -144,7 +177,16 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 #### Domain-Specific
 
+##### Biology
+
 - [WikiPathways](https://www.wikipathways.org)
+
+##### C++
+
+- [Compiler Explorer](https://compiler-explorer.com)
+- [BuildBench](https://build-bench.com)
+- [QuickBench](https://quick-bench.com)
+- [CppInsights.io](https://cppinsights.io)
 
 #### Event Processing
 
