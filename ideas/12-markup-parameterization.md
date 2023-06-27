@@ -1,6 +1,6 @@
-# Information Presentation Parameterization
+# Standardized Parameterization of Markup Presentation
 
-A mechanism to parameterize information for sections of notes that "implement an interface". Spport for complete categorial differences in presentation as well.
+A mechanism to parameterize information for sections of notes that "implement an interface". Support for complete categorial differences in presentation as well.
 
 Use cases for this "dynamic granularity of the presentation of knowledge" include optimizing the presentation for different modes of access.
 

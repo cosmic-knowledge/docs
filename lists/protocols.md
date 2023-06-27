@@ -4,7 +4,12 @@
   - [OWL](https://www.w3.org/2001/sw/wiki/OWL)
   - [SKOS](https://www.w3.org/2001/sw/wiki/SKOS)
   - [LDP](https://www.w3.org/2012/ldp/wiki/Main_Page)
-  - ...
+- [Multiformats](https://multiformats.io)
+- [IPLD](https://ipld.io)
+- [PortableText](https://github.com/portabletext/portabletext)
+- [udt-format](https://github.com/UniversalDataTool/udt-format)
+- [XMDP](https://gmpg.org/xmdp/description)
+- [XMP](https://www.adobe.com/devnet/xmp.html)
 - Web
   - [Data Vocabulary](https://data-vocabulary.org)
   - [Microformats](https://microformats.org)

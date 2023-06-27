@@ -1,11 +1,11 @@
-# Embedded Data View
+# Inline Prose Data
 
-This is the idea of eloquently embedding structured data within prose. For example, it could look like the following:
+Embed data in prose.
 
-```txt
+```text
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint asperiores a itaque quam quibusdam? Voluptas nulla deserunt libero, modi esse ipsam architecto error quibusdam vel? Ea et dolore saepe aliquid!
 
 Furthermore, the list is {foods['oranges', 'pears', 'grapes']}
 ```
 
-Somewhere, this list can be referred to with `food`
+Somewhere else, `food` identifies the list.

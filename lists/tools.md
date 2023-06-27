@@ -1,24 +1,30 @@
-# Exploring
+# Tools
+
+A list of tools that can be integrated via plugins.
 
 ## Representations
 
 A plethora of tools currently exist to create and represent data, whether through text, GUIs, or other means. Leverage and integrate the most valuable of these tools via plugins.
 
-### Text to Diagram / Interactivity / Document Tools
+### Text to Diagram / Interactivity / Document Tools / Markup Languages
 
 - [bpmm-io](https://bpmn.io) (bpmm-js, cmmn-js, dmm-js, form-js)
 - [nomnoml](https://nomnoml.com)
 - [PlantUML](https://plantuml.com)
 - [C4](https://c4model.com)
 - [Kroki](https://kroki.io)
+- [AsciiDoc](https://asciidoc.org)
 - [Asciidoctor](https://asciidoctor.org)
 - [kodemo](https://kodemo.com)
 - [VegaLite](https://vega.github.io/vega-lite)
-- [reveal.js]([reveal.js](https://github.com/hakimel/reveal.js))
+- [reveal.js](https://github.com/hakimel/reveal.js)
+- [Metadesk](https://dion.systems/metadesk)
 - [Smartdown](https://smartdown.io)
+- [Org Mode](https://orgmode.org)
 - [xstate](https://github.com/statelyai/xstate)
 - [NestedText](https://nestedtext.org/en/stable)
 - [Scroll](https://scroll.pub)
+- [Scribble](https://docs.racket-lang.org/scribble)
 - [Mathlingua](https://mathlingua.org)
 - [Argdown](https://argdown.org)
 - [MDX](https://mdxjs.com)
@@ -28,6 +34,11 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [DocBook](https://docbook.org)
 - [DITA](https://www.oxygenxml.com/dita/1.3/specs)
 - [HTML](https://html.spec.whatwg.org/multipage)
+- [LaTeX](https://www.latex-project.org)
+- [typst](https://typst.app)
+- [Markdown GitHub Flavoured](https://github.github.com/gfm)
+- [Markdown MyST](https://jupyterbook.org/en/stable/content/myst.html)
+- [From Pandoc](https://pandoc.org)
 
 ### Code to Diagram Tools
 
@@ -77,7 +88,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ## Design
 
-- [Figma](https://github.com/penpot/penpot)
+- [Penpot](https://github.com/penpot/penpot)
 - [Wireflow](https://wireflow.co)
 - [Plasmic](https://www.plasmic.app)
 - [Akira](https://github.com/akiraux/Akira)
@@ -89,14 +100,6 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [gtoolkit](https://github.com/feenkcom/gtoolkit)
 - [raylib](https://github.com/raysan5/raylib)
 - [nannou](https://github.com/nannou-org/nannou)
-
-### Format/Protocol Interoperability
-
-- [Multiformats](https://multiformats.io)
-- [IPLD](https://ipld.io)
-- [PortableText](https://github.com/portabletext/portabletext)
-- [XMDP](https://gmpg.org/xmdp/description)
-- [XMP](https://www.adobe.com/devnet/xmp.html)
 
 ### Editing Solutions
 
@@ -173,13 +176,25 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 #### Annotation Tools
 
+- [Annotator](https://github.com/openannotation/annotator)
+- [h](https://github.com/hypothesis/h)
 - [OpenPecha](https://github.com/OpenPecha)
+- [audino](https://github.com/midas-research/audino)
+- [Universal Data Tool](https://udt.dev)
+- [doccano](https://github.com/doccano/doccano)
+- [brat](https://github.com/nlplab/brat)
+- [INCEpTION](https://github.com/inception-project/inception)
 
 #### Domain-Specific
 
 ##### Biology
 
 - [WikiPathways](https://www.wikipathways.org)
+
+##### Geography
+
+- [TopoJSON](https://github.com/topojson)
+- [GeoJson](https://geojson.org)
 
 ##### C++
 
@@ -191,6 +206,10 @@ A plethora of tools currently exist to create and represent data, whether throug
 #### Event Processing
 
 - [memphis](https://github.com/memphisdev/memphis)
+
+#### Awesome Lists
+
+- [Knowledge-Graph-Tutorials-And-Papers](https://github.com/heathersherry/Knowledge-Graph-Tutorials-and-Papers)
 
 ## Obsolete Solutions
 

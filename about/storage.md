@@ -1,12 +1,10 @@
 # Storage
 
-Quasipanacea stores everything directly on the file system.
-
-Currently, there are two location Quasipanacea reads and writes from:
+Currently, Quasipanacea uses two locations. And, things will change later.
 
 ## config
 
-Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quasipanacea/server.json"`
+Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quasipanacea/server.json"`:
 
 ```json
 {
@@ -16,7 +14,7 @@ Configuration at `"${XDG_CONFIG_HOME:-$HOME/.config}/quasipanacea/server.json"`
 
 ## data
 
-The directory contains the files:
+Data at `<documentsDir>/quasipanacea/data/"`:
 
 ```txt
 views.json
@@ -33,5 +31,3 @@ pods.json
 pods/
   ...
 ```
-
-Each of those subdirectory contain a pod's data.
