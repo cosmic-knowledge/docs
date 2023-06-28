@@ -38,13 +38,13 @@ With contents like:
 
 ```ts
 // client.ts
-import { plugin } from '@quasipanacea/common/server/index.ts'
+import { pluginServer } from '@quasipanacea/common/server/index.ts'
 
 import { metadata } from './_isomorphic.ts'
 import { default as component } from './<PluginFamily><Id>.vue'
 
 export async function init() {
-	plugin.register({
+	pluginServer.register({
 		metadata,
 		component,
 	})
@@ -53,13 +53,13 @@ export async function init() {
 
 ```ts
 // server.ts
-import { plugin } from '@quasipanacea/common/server/index.ts'
+import { pluginServer } from '@quasipanacea/common/server/index.ts'
 
 import { metadata } from './_isomorphic.ts'
 import * as exports from './<pluginFamily><Id>.ts'
 
 export async function init() {
-	plugin.register({
+	pluginServer.register({
 		metadata,
 		...exports,
 	})
