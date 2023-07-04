@@ -1,6 +1,6 @@
 # Storage
 
-Currently, Quasipanacea uses two locations. And, things will change later.
+Currently, Quasipanacea uses two locations. Things will change later.
 
 ## config
 
