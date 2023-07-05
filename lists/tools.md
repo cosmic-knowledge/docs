@@ -50,33 +50,48 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [miro](https://miro.com)
 - [state-designer](https://github.com/steveruizok/state-designer)
 
-### Drawing Tools / Thinking Canvas / Mind Mapping / FreeForm Thinking
+### Drawing Tools
 
 - [excalidraw](https://excalidraw.com)
 - [tldraw](https://www.tldraw.com)
-- [signature_pad](https://github.com/szimek/signature_pad)
 - [jspaint](https://github.com/1j01/jspaint)
+
+## Visual Thinking Tool / Thinking Canvas / Mind Mapping / FreeForm Thinking
+
 - [Kinopio](https://kinopio.club)
+
+### Gantt Chart
+
+- [Markwhen](https://markwhen.com)
 
 ### Flow Based Programming
 
-- [Node-RED](https://nodered.org)
-- [rete](https://github.com/retejs/rete)
+#### Category 1
+
+- [reaflow](https://github.com/reaviz/reaflow)
 - [flume](https://flume.dev)
+- [rete](https://github.com/retejs/rete)
 - [noflo](https://github.com/noflo/noflo)
+
+#### Category 2
+
+- [Node-RED](https://nodered.org)
+
+### Category Other
+
 - [Drawflow](https://github.com/jerosoler/Drawflow)
 - [NodeBox](https://www.nodebox.net)
 - [baklavajs](https://github.com/newcat/baklavajs)
 - [litegraph.js](https://github.com/jagenjo/litegraph.js)
-- [reaflow](https://github.com/reaviz/reaflow)
 - [nodify](https://github.com/miroiu/nodify)
 - [nodes.io](https://nodes.io)
 - [Seneral](https://github.com/Seneral/Node_Editor_Framework)
 - [ThreeNodes.js](https://github.com/idflood/ThreeNodes.js)
 - [GSN Composer](https://www.gsn-lib.org/docs/getstarted.php)
-- [awesome-node-based-uis](https://github.com/wbkd/awesome-node-based-uis)
 - [enso](https://github.com/enso-org/enso)
+- [butterfly](https://github.com/alibaba/butterfly)
 - [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
+- [diagram-maker](https://github.com/awslabs/diagram-maker)
 
 ### Code IDEs
 
@@ -166,6 +181,8 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ### Others
 
+- [drawio](https://github.com/jgraph/drawio)
+- [JSON Crack](https://github.com/AykutSarac/jsoncrack.com)
 - [ASTExplorer](https://astexplorer.net)
 
 #### Ideas
@@ -210,6 +227,10 @@ A plethora of tools currently exist to create and represent data, whether throug
 #### Awesome Lists
 
 - [Knowledge-Graph-Tutorials-And-Papers](https://github.com/heathersherry/Knowledge-Graph-Tutorials-and-Papers)
+- [awesome-nod-ebased-uis](https://github.com/wbkd/awesome-node-based-uis)
+- [awesome-diagramming](https://github.com/shubhamgrg04/awesome-diagramming)
+- [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools)
+- [tools-list](https://github.com/everestpipkin/tools-list)
 
 ## Obsolete Solutions
 

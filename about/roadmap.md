@@ -4,11 +4,10 @@
 
 Currently, _pods_ and _models_ are core abstractions that hide details of managing files and satisfying schemas (of mind maps), respectively.
 
-But, I'm thinking there needs to be an abstraction between pods and models. There needs to be something that enables working in a workspace-like away (a schemaless, flexible _model_), but in the form factor of a pod. This needs to be implemented sooner rather than later.
-
 Other abstractions include:
 
 - [ ] Common settings functionality
+- [ ] Enable nesting _models_
 - [ ] Modern layout manager (GoldenLayout is mediocre)
 - [ ] Make it easier for plugins to export their functionality (forking to make quick fixes it not preferred)
 - [ ] SSR and stuff (vite-plugin-ssr?)
@@ -21,11 +20,11 @@ Fix types and add utility functions for authoring plugins for the client and ser
 
 Make plugins dynamically loadable. Bundle plugins for use. Far in the future, experiment with module federation for easier experimentation of plugins?
 
-When Deno improves `npm`-compatibility, remove the `dependencies -> node_modules/` symlink and `deno.jsonc` hack.
+When Deno improves `npm`-compatibility, remove the `dependencies -> node_modules/` symlink and dependencies in `deno.jsonc` hack.
 
 1. Overhaul then-current plugins
 
-Polish the then-current plugins (likely LaTeX, Excalidraw, MindElixir, Cytoscape.js). Make sure they don't have hacks
+Polish the then-current plugins (likely LaTeX, Excalidraw, MindElixir, Cytoscape.js). Make sure they don't have hacks.
 
 1. Improve release process
 
