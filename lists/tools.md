@@ -93,6 +93,10 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
 - [diagram-maker](https://github.com/awslabs/diagram-maker)
 
+### Frontend experimentation
+
+- [jsconsole](https://github.com/remy/jsconsole)
+
 ### Code IDEs
 
 - [codesandbox](https://codesandbox.io)
@@ -172,6 +176,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [Open Knowledge Foundation](https://okfn.org)
 - [TopicQuests](https://topicquests.org)
 - [Underlay](https://www.underlay.org)
+- [LearnAwesome](https://learnawesome.org)
 
 ### Storage and Synchronization
 

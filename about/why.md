@@ -6,24 +6,26 @@ So I decide to make one myself, Quasipanacea. It's my personal panacea for perso
 
 It's wishlist of features includes:
 
-- An interface system:
+- An interface that's:
   - Simple
   - Intuitive
-- A storage system:
+
+- Data that's:
   - Backed by the file system
-  - Non-hierarchal storage, optionally hierarchal retrieval
-- A plugin system:
+
+- A plugin system that's:
   - Arbitrarily extensible
   - Dynamically loadable
   - Fully type-safe
-- A collaboration system:
+  - Interoperable (plugins can easily be individually replaced)
+
+- Collaboration that's:
   - Something CRDT or OT-based
+
 - Novel systems
   - Proper handling of data source types (bronze, silver, gold)
   - Localized schema and constraint system
 
-What I'm not trying to do:
+I'm trying to avoid:
 
 - Scale (each user has their own instance)
-
-I'll write more detail later.

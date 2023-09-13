@@ -5,10 +5,6 @@ flowchart TD
   subgraph "Overviews (graph perspective)"
     direction BT
     overview1[Overviews]
-
-    orb1[Orbs] --> overview1
-    link1[Links] --> overview1
-    orb1 <-.-> link1
   end
 
   subgraph "Overviews (knowledge perspective)"

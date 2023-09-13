@@ -18,3 +18,7 @@
   - [oEmbed](https://oembed.com)
   - [Google Search Galery](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
   - DITA
+- JSON
+  - [JSON Graph Format](http://jsongraphformat.info)
+  - [GeoJson](https://geojson.org)
+  - [TopoJson](https://github.com/topojson/topojson)
