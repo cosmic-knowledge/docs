@@ -13,7 +13,7 @@ With contents like:
 ```jsonc
 // package.json
 {
-	"name": "@quasipanacea/plugin-<pluginFamily>-<id>",
+	"name": "@quasipanacea/plugin,<resourceType>.<id>.(controller|view).<optionalExtra>",
 	"dependencies": {
 		"@quasipanacea/common": "workspace:^",
 		"@quasipanacea/plugin-utility": "workspace:^"
@@ -40,13 +40,16 @@ With contents like:
 // client.ts
 import { pluginServer } from '@quasipanacea/common/server/index.ts'
 
-import { metadata } from './_isomorphic.ts'
+import { metadata, format } from './_isomorphic.ts'
 import { default as component } from './<PluginFamily><Id>.vue'
 
 export async function init() {
 	pluginServer.register({
 		metadata,
-		component,
+		podView: {
+			format,
+			component,
+		},
 	})
 }
 ```
@@ -55,13 +58,16 @@ export async function init() {
 // server.ts
 import { pluginServer } from '@quasipanacea/common/server/index.ts'
 
-import { metadata } from './_isomorphic.ts'
+import { metadata, format } from './_isomorphic.ts'
 import * as exports from './<pluginFamily><Id>.ts'
 
 export async function init() {
 	pluginServer.register({
 		metadata,
-		...exports,
+		format,
+		podController: {
+			...exports,
+		},
 	})
 }
 ```

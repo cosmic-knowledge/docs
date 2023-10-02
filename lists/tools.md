@@ -39,6 +39,13 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [Markdown GitHub Flavoured](https://github.github.com/gfm)
 - [Markdown MyST](https://jupyterbook.org/en/stable/content/myst.html)
 - [From Pandoc](https://pandoc.org)
+- [troff](https://troff.org)
+- [lout](https://savannah.nongnu.org/projects/lout)
+- [pollen](https://docs.racket-lang.org/pollen)
+- [speedata](https://github.com/speedata/publisher)
+- [TUSTEP](https://www.tustep.uni-tuebingen.de/tustep_eng.html)
+- [Heirloom](https://heirloom.sourceforge.net/doctools.html)
+- [Patoline](https://github.com/patoline/patoline)
 
 ### Code to Diagram Tools
 
@@ -162,6 +169,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [percival](https://github.com/ekzhang/percival)
 - [nbdev](https://nbdev.fast.ai)
 - [nteract](https://nteract.io) stack
+- [quarto](https://quarto.org)
 
 ### Querying
 
