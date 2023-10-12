@@ -8,6 +8,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ### Text to Diagram / Interactivity / Document Tools / Markup Languages
 
+- [penrose](https://penrose.cs.cmu.edu/)
 - [bpmm-io](https://bpmn.io) (bpmm-js, cmmn-js, dmm-js, form-js)
 - [nomnoml](https://nomnoml.com)
 - [PlantUML](https://plantuml.com)
@@ -36,6 +37,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [HTML](https://html.spec.whatwg.org/multipage)
 - [LaTeX](https://www.latex-project.org)
 - [typst](https://typst.app)
+- [sile](https://github.com/sile-typesetter/sile)
 - [Markdown GitHub Flavoured](https://github.github.com/gfm)
 - [Markdown MyST](https://jupyterbook.org/en/stable/content/myst.html)
 - [From Pandoc](https://pandoc.org)
@@ -111,6 +113,8 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [theia](https://theia-ide.org)
 - [VSCode](https://code.visualstudio.com/docs/editor/vscode-web)
 - [devcontainers](https://github.com/devcontainers)
+- [awesome-online-ide](https://github.com/styfle/awesome-online-ide)
+- [devpod.sh](https://devpod.sh)
 
 ## Design
 
@@ -178,6 +182,8 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ### Data exploring and publishing / Knowledge Infrastructure
 
+- [datahub](https://github.com/datahub-project/datahub)
+- [ckan](https://github.com/ckan/ckan)
 - [Datasette](https://datasette.io)
 - [PubPub](https://www.pubpub.org)
 - [KnowledgeFutures](https://www.knowledgefutures.org)

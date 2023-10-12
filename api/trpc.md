@@ -3,7 +3,7 @@
 In your backend file:
 
 ```ts
-import * as path from 'std/path/mod.ts'
+import * as path from 'node:path'
 import { z } from 'zod'
 
 export const trpcRouter = trpc.router({

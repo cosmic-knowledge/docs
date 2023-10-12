@@ -59,14 +59,14 @@ export async function init() {
 import { pluginServer } from '@quasipanacea/common/server/index.ts'
 
 import { metadata, format } from './_isomorphic.ts'
-import * as exports from './<pluginFamily><Id>.ts'
+import * as Exports from './<pluginFamily><Id>.ts'
 
 export async function init() {
 	pluginServer.register({
 		metadata,
 		format,
 		podController: {
-			...exports,
+			...Exports,
 		},
 	})
 }
