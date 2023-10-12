@@ -7,6 +7,7 @@
 - [TypeScript](https://www.typescriptlang.org)
 - [Zod](https://zod.dev)
 - [tRPC](https://trpc.io)
+- [ts-rest](https://ts-rest.com)
 
 ### Frontend
 
@@ -18,8 +19,8 @@
 
 ### Backend
 
-- [Deno](https://deno.com/runtime)
-- [Oak](https://oakserver.github.io/oak)
+- [NodeJS](https://nodejs.org)
+- [Express](https://expressjs.com)
 
 ## In plugins
 
