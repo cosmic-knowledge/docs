@@ -24,6 +24,7 @@ Some software is irrelevant in this comparison. They include:
   - Like [GitJournal][git-journal], [batnoter][batnoter], [gitnote][gitnote], [Fossil][fossil]
 - Others
   - Like [OpenNote][open-note], [Lorien][lorien], [TidGi-Desktop][tidgi-desktop], [Omni-Notes][omni-notes], [Dynalist][dynalist]
+  - https://github.com/mundimark/awesome-markdown-editors
 
 [docu-wiki]: https://www.dokuwiki.org/dokuwiki
 [media-wiki]: https://www.mediawiki.org/wiki/MediaWiki

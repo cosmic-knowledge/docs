@@ -8,6 +8,8 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ### Text to Diagram / Interactivity / Document Tools / Markup Languages
 
+- [BBCode](https://en.wikipedia.org/wiki/BBCode)
+- [PENDOWN](https://github.com/senselogic/PENDOWN)
 - [penrose](https://penrose.cs.cmu.edu/)
 - [bpmm-io](https://bpmn.io) (bpmm-js, cmmn-js, dmm-js, form-js)
 - [nomnoml](https://nomnoml.com)
@@ -40,6 +42,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [sile](https://github.com/sile-typesetter/sile)
 - [Markdown GitHub Flavoured](https://github.github.com/gfm)
 - [Markdown MyST](https://jupyterbook.org/en/stable/content/myst.html)
+- [Markdown RMarkdown](https://rmarkdown.rstudio.com)
 - [From Pandoc](https://pandoc.org)
 - [troff](https://troff.org)
 - [lout](https://savannah.nongnu.org/projects/lout)
@@ -48,7 +51,10 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [TUSTEP](https://www.tustep.uni-tuebingen.de/tustep_eng.html)
 - [Heirloom](https://heirloom.sourceforge.net/doctools.html)
 - [Patoline](https://github.com/patoline/patoline)
-
+- [railroad-diagrams](https://github.com/tabatkins/railroad-diagrams)
+- [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language))
+- [WikiText/WikiCode](https://en.wikipedia.org/wiki/Help:Wikitext)
+  - [Creole](https://en.wikipedia.org/wiki/Creole_(markup))
 ### Code to Diagram Tools
 
 - [D3](https://d3js.org)
@@ -61,6 +67,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ### Drawing Tools
 
+- [milton](https://github.com/serge-rgb/milton)
 - [excalidraw](https://excalidraw.com)
 - [tldraw](https://www.tldraw.com)
 - [jspaint](https://github.com/1j01/jspaint)
@@ -157,6 +164,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 
 ## Block-Based Standards
 
+- [GitHub Blocks](https://blocks.githubnext.com)
 - [Mobiledoc](https://github.com/bustle/mobiledoc-kit)
 - [Block Protocol](https://blockprotocol.org)
 - [hash.ai](https://hash.ai)
@@ -195,6 +203,7 @@ A plethora of tools currently exist to create and represent data, whether throug
 ### Storage and Synchronization
 
 - [IPFS](https://github.com/ipfs/ipfs)
+- [IPLD](https://github.com/ipld)
 - [Earthstar](https://earthstar-project.org)
 - [perkeep](https://github.com/perkeep/perkeep)
 
@@ -250,6 +259,10 @@ A plethora of tools currently exist to create and represent data, whether throug
 - [awesome-diagramming](https://github.com/shubhamgrg04/awesome-diagramming)
 - [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools)
 - [tools-list](https://github.com/everestpipkin/tools-list)
+
+### Other
+
+- [PDS Interop](https://github.com/pdsinterop)
 
 ## Obsolete Solutions
 
