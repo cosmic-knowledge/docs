@@ -5,6 +5,9 @@
 - Link aggregator for tags, etc. like [this](https://links.tiddlywiki.org)
 - Taking notes on a moving codebase or PDF (by file/symbol, etc.)
 - Projection of 1D information on 2D or 2 to 3
+- [Progress Nav](https://lab.hakim.se/progress-nav)
+- [perfect-arrows](https://github.com/steveruizok/perfect-arrows)
+- [curved-arrows](https://github.com/dragonman225/curved-arrows)
 
 ## Quasipanacea
 

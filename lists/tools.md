@@ -2,16 +2,19 @@
 
 - [Introduction](#introduction)
 - [Static Formats](#static-formats)
-  - [to diagram](#to-diagram)
-  - [to document](#to-document)
-  - [drawing](#drawing)
+  - [Diagrams](#diagrams)
+  - [Typesetting Languages](#typesetting-languages)
+  - [Markup Languages](#markup-languages)
+  - [Drawing](#drawing)
   - [generator](#generator)
 - [Dynamic Formats](#dynamic-formats)
-  - [diagram](#diagram)
-  - [document](#document)
-  - [flow based programming](#flow-based-programming)
-  - [slides](#slides)
-  - [blocks](#blocks)
+  - [Diagrams / Charts](#diagrams--charts)
+  - [Infinite Canvas](#infinite-canvas)
+  - [Infinite Whiteboard](#infinite-whiteboard)
+  - [Documents](#documents)
+  - [Flow-Based Programming](#flow-based-programming)
+  - [Slides](#slides)
+  - [Blocks](#blocks)
   - [Text Editors](#text-editors)
   - [Block-Based Standards](#block-based-standards)
 - [Sidecar Formats](#sidecar-formats)
@@ -38,16 +41,13 @@
 
 There are a lot of useful tools. Naturally, separate tools have limited interoperability. This document lists some tools, some of which are prime candidates for experimenting with that.
 
+TODO: sort by implementation, grammars, standards, etc.
+
 ## Static Formats
 
 Standalone format with limited to no interaction points.
 
-### to diagram
-
-- text to diagram
-- code to diagram
-
-TODO: sort by implementation, grammars, standards, etc.
+### Diagrams
 
 Hierarchy:
 
@@ -74,6 +74,22 @@ Hierarchy:
   - [DITA](https://www.oxygenxml.com/dita/1.3/specs)
   - [HTML](https://html.spec.whatwg.org/multipage)
   - [DocBook](https://docbook.org)
+- [From Pandoc](https://pandoc.org)
+- Publishing systems
+  - [pollen](https://docs.racket-lang.org/pollen)
+  - [speedata](https://github.com/speedata/publisher)
+  - [TUSTEP](https://www.tustep.uni-tuebingen.de/tustep_eng.html)
+- UML
+  - [PlantUML](https://plantuml.com)
+  - [nomnoml](https://nomnoml.com)
+  - YUML
+
+### Typesetting Languages
+
+- text to document
+- markup languages
+- typesetting languages
+
 - Typesetting
   - [LaTeX](https://www.latex-project.org)
   - [typst](https://typst.app)
@@ -82,6 +98,9 @@ Hierarchy:
   - [Heirloom](https://heirloom.sourceforge.net/doctools.html)
   - [lout](https://savannah.nongnu.org/projects/lout)
   - [Patoline](https://github.com/patoline/patoline)
+
+### Markup Languages
+
 - Markup: Markdown
   - [Markdoc](https://markdoc.dev)
   - [Markdown GitHub Flavoured](https://github.github.com/gfm)
@@ -100,23 +119,8 @@ Hierarchy:
   - [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language))
   - [WikiText/WikiCode](https://en.wikipedia.org/wiki/Help:Wikitext)
   - [Creole](https://en.wikipedia.org/wiki/Creole_(markup))
-- [From Pandoc](https://pandoc.org)
-- Publishing systems
-  - [pollen](https://docs.racket-lang.org/pollen)
-  - [speedata](https://github.com/speedata/publisher)
-  - [TUSTEP](https://www.tustep.uni-tuebingen.de/tustep_eng.html)
-- UML
-  - [PlantUML](https://plantuml.com)
-  - [nomnoml](https://nomnoml.com)
-  - YUML
 
-### to document
-
-- text to document
-- markup languages
-- typesetting languages
-
-### drawing
+### Drawing
 
 - [milton](https://github.com/serge-rgb/milton)
 - [excalidraw](https://excalidraw.com)
@@ -131,7 +135,7 @@ Hierarchy:
 
 Standalone format fundamentally based on interaction points.
 
-### diagram
+### Diagrams / Charts
 
 - [D3](https://d3js.org)
 - [JSXGraph](https://jsxgraph.uni-bayreuth.de/wp)
@@ -142,11 +146,24 @@ Standalone format fundamentally based on interaction points.
 - [state-designer](https://github.com/steveruizok/state-designer)
 - [xstate](https://github.com/statelyai/xstate)
 
-### document
+### Infinite Canvas
 
-- WYSIWYG
+- [jade](https://github.com/dragonman225/jade)
+- [fastboard](https://github.com/netless-io/fastboard)
 
-### flow based programming
+### Infinite Whiteboard
+
+- [fastboard](https://github.com/netless-io/fastboard)
+- [lovasoa/whitebophir](https://github.com/lovasoa/whitebophir)
+- [cracker0dks/whiteboard](https://github.com/cracker0dks/whiteboard)
+- [box-line-text](https://github.com/jncraton/box-line-text)
+- [Whitebird](https://github.com/BuchholzTim/Whitebird)
+
+### Documents
+
+- WYSIWYG Editors
+
+### Flow-Based Programming
 
 - Category: 1
   - [reaflow](https://github.com/reaviz/reaflow)
@@ -170,7 +187,7 @@ Standalone format fundamentally based on interaction points.
   - [samuelmtimbo/unit](https://github.com/samuelmtimbo/unit)
   - [diagram-maker](https://github.com/awslabs/diagram-maker)
 
-### slides
+### Slides
 
 - [sli.dev](https://github.com/slidevjs/slidev)
 - [marp](https://github.com/marp-team/marp)
@@ -182,7 +199,7 @@ Standalone format fundamentally based on interaction points.
 - [big](https://github.com/tmcw/big)
 - [reveal.js](https://github.com/hakimel/reveal.js)
 
-### blocks
+### Blocks
 
 - [editor.js](https://editorjs.io)
 - [BlockSuite](https://github.com/toeverything/blocksuite)
@@ -340,7 +357,7 @@ Tools to search, explore, publish, and use data or knowledge.
   - [QuickBench](https://quick-bench.com)
   - [CppInsights.io](https://cppinsights.io)
 - Event Processing
-  - [memphis](https://github.com/memphisdev/memphis)
+  - [memphis](httpsh://github.com/memphisdev/memphis)
 
 ### Similar Tool Aggregations
 
